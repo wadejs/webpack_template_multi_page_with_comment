@@ -1,0 +1,38 @@
+
+  
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+ul,ol{list-style: none}
+a{text-decoration: none;color: inherit;}
+img{width: 100%;height: 100%}
+body{font-family: 'PingFang SC','STHeitiSC-Light','Helvetica',arial,sans-serif;}
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+ 
+.clear:before{
+    content: "";
+    display: table;
+}
+.hide{
+    display: none;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.5);
+  z-index: 999;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+ 
+ 

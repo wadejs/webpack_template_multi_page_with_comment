@@ -1,0 +1,22 @@
+.banner-container {
+  width: 100%;
+}
+
+.banner-container .banner-pagination {
+  bottom: 91px;
+}
+.banner-pagination .swiper-pagination-bullet {
+  width:14px;
+  height:14px;
+  border-radius: 0;
+  background: transparent;
+  border: 2px solid #BFBFBF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 12px !important;
+}
+.banner-pagination .swiper-pagination-bullet-active {
+  background:#BFBFBF;
+}
+
+ 
